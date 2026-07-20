@@ -839,13 +839,13 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "1b2f3f8a-615a-4178-837c-3241264cc9c7";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "1b2f3f8a-615a-4178-837c-3241264cc9c7";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? window.location.origin : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
   </button>
@@ -1371,7 +1371,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   </div>
 </section>
 
-<section class="contact-contact-form-section" data-layout-spec="צור קשר-contact-form" dir="rtl">
+<section class="contact-contact-form-section" data-layout-spec="צור קשר-contact-form" dir="rtl" id="contact-contact-form-section">
   <div class="contact-contact-form-section__container">
     
     <!-- HEADER -->
@@ -1381,10 +1381,10 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </div>
 
     <!-- TWO-COLUMN LAYOUT -->
-    <div class="contact-contact-form-section__grid">
+    <div class="contact-contact-form-section__grid" data-zappy-grid-align="start">
       
       <!-- START: Form Panel -->
-      <div class="contact-contact-form-section__form-panel">
+      <div class="contact-contact-form-section__form-panel" data-grid-item-index="0">
         <form class="contact-form">
           
           <div class="contact-form__field">
@@ -1417,13 +1417,13 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
             </label>
           </div>
 
-          <button type="submit" class="contact-form__submit btn-primary">שליחת הודעה</button>
+          <button type="submit" class="contact-form__submit btn btn-primary" data-element-type="button" data-element-id="btn-1784575759632-bs8wezziw" data-native-element="true" style="outline: none; border-color: rgb(179, 38, 46) !important; color: rgb(255, 255, 255) !important; background-color: rgb(179, 38, 46) !important; background-image: none !important;">שליחת הודעה</button>
           
         </form>
       </div>
 
       <!-- END: Context Panel -->
-      <div class="contact-contact-form-section__context-panel">
+      <div class="contact-contact-form-section__context-panel" data-grid-item-index="1">
         
         <h3 class="contact-contact-form-section__context-title">דברו איתנו</h3>
         <p class="contact-contact-form-section__context-desc">בין אם אתם מועדון אגרוף שמחפש ציוד, ספורטאים לשיתוף פעולה, או סתם שאלה על הקולקציה – אנחנו זמינים עבורכם.</p>
@@ -1434,8 +1434,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
               <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
             </div>
             <div class="contact-contact-form-section__topic-text">
-              <strong>פניות מועדונים</strong>
-              <p>הזמנות סיטונאיות, ציוד קבוצתי, ולוגואים מותאמים אישית למועדוני אגרוף.</p>
+              <p class="zappy-editable"><strong>פניות מועדונים</strong>
+              </p><p>הזמנות סיטונאיות, ציוד קבוצתי, ולוגואים מותאמים אישית למועדוני אגרוף.</p>
             </div>
           </li>
           <li class="contact-contact-form-section__topic-item">
@@ -1443,8 +1443,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
               <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
             </div>
             <div class="contact-contact-form-section__topic-text">
-              <strong>שיתופי פעולה עם ספורטאים</strong>
-              <p>מתאגרפים, מאמנים ויוצרי תוכן – בואו נבנה משהו חזק ביחד.</p>
+              <p class="zappy-editable"><strong>שיתופי פעולה עם ספורטאים</strong>
+              </p><p>מתאגרפים, מאמנים ויוצרי תוכן – בואו נבנה משהו חזק ביחד.</p>
             </div>
           </li>
           <li class="contact-contact-form-section__topic-item">
@@ -1452,8 +1452,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
               <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
             </div>
             <div class="contact-contact-form-section__topic-text">
-              <strong>שאלות על המוצרים</strong>
-              <p>מידות, בדים, משלוחים והחזרות – כל מה שקשור לפריטים שלנו.</p>
+              <p class="zappy-editable"><strong>שאלות על המוצרים</strong>
+              </p><p>מידות, בדים, משלוחים והחזרות – כל מה שקשור לפריטים שלנו.</p>
             </div>
           </li>
           <li class="contact-contact-form-section__topic-item">
@@ -1461,8 +1461,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
               <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
             </div>
             <div class="contact-contact-form-section__topic-text">
-              <strong>כללי</strong>
-              <p>כל שאלה אחרת – אנחנו כאן כדי לעזור.</p>
+              <p class="zappy-editable"><strong>כללי</strong>
+              </p><p>כל שאלה אחרת – אנחנו כאן כדי לעזור.</p>
             </div>
           </li>
         </ul>
@@ -1483,7 +1483,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 
   <!-- Decorative Background Motif (Boxing Gloves Silhouette) -->
   <div class="contact-contact-form-section__bg-motif" aria-hidden="true">
-    <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-element-id="icon-1784575759653-v8acy68mz" data-icon-type="svg">
       <path d="M60 80 C60 50, 90 30, 120 40 C140 45, 150 60, 145 80 C160 75, 170 85, 165 100 C160 115, 140 120, 130 110 C125 130, 105 140, 90 130 C75 140, 55 125, 60 80 Z" fill="currentColor" opacity="0.4"/>
       <path d="M120 50 C130 30, 155 25, 165 40 C175 55, 170 75, 155 85 C165 90, 175 105, 165 115 C155 125, 135 120, 130 105 C125 120, 105 125, 95 110 C85 120, 70 110, 75 95 C60 100, 50 85, 60 75 C50 65, 55 45, 70 40 C85 35, 105 40, 120 50 Z" fill="currentColor" opacity="0.2"/>
     </svg>
