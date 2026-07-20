@@ -840,7 +840,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "1b2f3f8a-615a-4178-837c-3241264cc9c7";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "1b2f3f8a-615a-4178-837c-3241264cc9c7";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? window.location.origin : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1353,16 +1353,16 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-treatment="fade-bleed" style="--hero-fade-color: var(--bg-dark);" data-hero-type="fullscreen-scrim">
-  <img loading="eager" fetchpriority="high" class="hero-fade-img" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Cinematic black-and-white boxing gym image. A fighter in dark training apparel with hand wraps, sweat detail, intense focus. Subject on the right side. Dramatic gym lighting, raw concrete walls, heavy bag in background. High contrast monochrome." width="1200" height="800" src="/assets/site-image-index-hero-image-1.webp" alt="מתאגרף בחדר כושר, אימון אינטנסיבי" decoding="async" />
+    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-treatment="fade-bleed" style="--hero-fade-color: var(--bg-dark);" data-hero-type="fullscreen-scrim" id="index-hero-section">
+  <img loading="eager" fetchpriority="high" class="hero-fade-img" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Cinematic black-and-white boxing gym image. A fighter in dark training apparel with hand wraps, sweat detail, intense focus. Subject on the right side. Dramatic gym lighting, raw concrete walls, heavy bag in background. High contrast monochrome." width="1200" height="800" src="/assets/site-image-index-hero-image-1.webp" alt="מתאגרף בחדר כושר, אימון אינטנסיבי" data-hero-background="true" data-element-type="image" data-element-id="img-1784576021088-18ybltow7" decoding="async" />
   
   <div class="hero-fade-content">
     <p class="hero-eyebrow">LEGACY</p>
     <h1 class="display-xl">תתאמן כאילו השם שלך אומר משהו</h1>
     <h3 class="hero-subtitle">LEGACY מייצרת ביגוד איגרוף מקצועי ללוחמים, מתאמנים ומועדונים שנושאים משמעת לכל סיבוב.</h3>
     <div class="hero-cta-group">
-      <a href="/contact" class="btn-hero-primary">התחל את המורשת</a>
-      <a href="/about" class="btn-hero-secondary">הכירו את המותג</a>
+      <a href="#" class="btn-hero-primary btn btn-primary" data-element-type="button" data-element-id="btn-1784576021067-7s6c4eebq" data-native-element="true" style="outline: none; border-color: rgb(179, 38, 46) !important; color: rgb(255, 255, 255) !important; background-color: rgb(179, 38, 46) !important; background-image: none !important;">התחלת קנייה</a>
+      <a href="/about" class="btn-hero-secondary" data-element-type="button" data-element-id="btn-1784576021067-rczjhfshd" data-native-element="true" style="outline: none;">הכירו את המותג</a>
     </div>
   </div>
 
@@ -1613,36 +1613,29 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       
       <!-- Company Info -->
       <div class="footer-col footer-brand-col">
-        <img src="/assets/legacy-sports-apparel-logo.webp" alt="LEGACY" class="logo" decoding="async" width="35" height="35" />
+        <img src="/assets/legacy-sports-apparel-logo.webp" alt="LEGACY" class="logo" data-element-type="image" data-element-id="img-1784575918923-2d7lztmgp" data-zappy-footer-image="true" style decoding="async" width="35" height="35" />
         <p class="footer-tagline">ביגוד אימון ייעודי לספורטאי לחימה. משלבים חומרים מתקדמים עם מורשת אגרוף אמיתית.</p>
       </div>
 
       <!-- Quick Links -->
       <div class="footer-col footer-links-col">
         <h4>ניווט מהיר</h4>
-        <ul>
-          <li><a href="/">בית</a></li>
-          <li><a href="/brand-story">הסיפור שלנו</a></li>
-          <li><a href="/training-culture">תרבות אימון</a></li>
-          <li><a href="/gallery">גלריה</a></li>
-          <li><a href="/contact">צור קשר</a></li>
-        </ul>
+        <ul style><li><a href="/" style>בית</a></li><li><a href="/brand-story">הסיפור שלנו</a></li><li><a href="/training-culture">תרבות אימון</a></li><li><a href="/gallery">גלרי</a>ה</li><li><a href="/contact">צור קשר</a></li></ul>
       </div>
 
       <!-- Contact Info -->
       <div class="footer-col footer-contact-col">
-        <h4>צור קשר</h4>
+        <h4 style>צור קשר</h4>
         <ul class="footer-contact">
           <li>
-            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+            <span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1784575918908-12jjpfw3w" data-icon-type="fontawesome"></i></span>
             <span class="contact-text"><a href="mailto:shmuel.turj@gmail.com">shmuel.turj@gmail.com</a></span>
           </li>
           <li>
-            <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:+972556881542">+972556881542</a></span>
+            <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1784575918908-0vlpve5s9" data-icon-type="fontawesome"></i></span>
+            <span class="contact-text"><a href="tel:+972556881542" style>+972556881542</a></span>
           </li>
-          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%A2%D7%99%D7%A0%D7%91%2011%2C%20%D7%9B%D7%A8%D7%9E%D7%99%D7%90%D7%9C%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">עינב 11, כרמיאל, ישראל, ישראל</span></a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%A2%D7%99%D7%A0%D7%91%2011%2C%20%D7%9B%D7%A8%D7%9E%D7%99%D7%90%D7%9C%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer" style><span class="contact-icon"><i class="fas fa-map-marker-alt" data-element-type="icon" data-element-id="icon-1784575918909-3d76641cz" data-icon-type="fontawesome" style="cursor: pointer;"></i><font face="Font Awesome 6 Free"><b>&nbsp;</b></font></span></a><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%A2%D7%99%D7%A0%D7%91%2011%2C%20%D7%9B%D7%A8%D7%9E%D7%99%D7%90%D7%9C%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer" style="font-size: 0.95rem; display: inline !important;"><span class="contact-text" style="display: inline !important;">, כרמיאל, ישראל, ישראל</span></a></li>
         </ul>
       </div>
 
@@ -1659,8 +1652,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         <h4>עקבו אחרינו</h4>
         <div class="footer-social">
           <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram" data-element-type="icon" data-element-id="icon-1784575918909-fpqf9luym" data-icon-type="fontawesome" style="font-size: 15px !important; color: rgba(255, 255, 255, 0.714);"></i></a>
+          <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp" data-element-type="icon" data-element-id="icon-1784575918909-an7ts5rrs" data-icon-type="fontawesome"></i></a>
         </div>
       </div>
 
@@ -1674,10 +1667,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       <div class="footer-bottom-right">
         <nav class="footer-legal">
           <a href="/privacy">מדיניות פרטיות</a>
-          <a href="/terms">תנאי שימוש</a><span class="separator">|</span>
-            <a href="/return-policy" aria-label="מדיניות החזרות">
-              מדיניות החזרות
-            </a>
+          <a href="/terms">תנאי שימוש</a>
           <a href="/accessibility">נגישות</a>
         </nav>
         <a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a>
