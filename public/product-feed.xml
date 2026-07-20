@@ -4,6 +4,20 @@
     <title>LEGACY</title>
     <link>https://example.com</link>
     <description>Product feed for LEGACY</description>
-    <lastBuildDate>Mon, 20 Jul 2026 19:18:46 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 19:28:08 GMT</lastBuildDate>
+    <item>
+      <g:id>30469fc0-92aa-4303-aec4-6a0dfac7ad6a</g:id>
+      <g:title>חולצה של איליה טופוריה </g:title>
+      <g:description>חולצת של איליה טופוריה עם נבחרת ספרד הסמל של ספרד עם 2 כוכבים אחרי הזכייה במונדיאל</g:description>
+      <g:link>https://example.com/product/chvltsh-shl-aylyh-tvpvryh-dy3fk7</g:link>
+      <g:image_link>https://example.com/assets/product-1784575307904-d8g7l.webp</g:image_link>
+      <g:additional_image_link>https://example.com/assets/product-1784575325257-nxnlec.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>120.00 ILS</g:price>
+      <g:sale_price>110.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>LEGACY</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
   </channel>
 </rss>

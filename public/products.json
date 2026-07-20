@@ -1,8 +1,32 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T19:18:46.029Z",
+  "generated_at": "2026-07-20T19:28:08.672Z",
   "base_url": "https://example.com",
   "currency": "ILS",
-  "count": 0,
-  "products": []
+  "count": 1,
+  "products": [
+    {
+      "id": "30469fc0-92aa-4303-aec4-6a0dfac7ad6a",
+      "slug": "chvltsh-shl-aylyh-tvpvryh-dy3fk7",
+      "name": "חולצה של איליה טופוריה ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "חולצת של איליה טופוריה עם נבחרת ספרד הסמל של ספרד עם 2 כוכבים אחרי הזכייה במונדיאל ",
+      "sku": null,
+      "brand": null,
+      "price": 110,
+      "base_price": 120,
+      "sale_price": 110,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1784575307904-d8g7l.webp",
+        "https://example.com/assets/product-1784575325257-nxnlec.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/chvltsh-shl-aylyh-tvpvryh-dy3fk7",
+      "categories": [],
+      "updated_at": "2026-07-20T19:24:07.418Z"
+    }
+  ]
 }

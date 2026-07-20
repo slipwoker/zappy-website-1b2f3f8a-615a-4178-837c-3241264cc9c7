@@ -80,7 +80,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-_No products are currently configured._
+**Total active products: 1**
+
+### חולצה של איליה טופוריה 
+https://example.com/product/chvltsh-shl-aylyh-tvpvryh-dy3fk7
+- Price: 110.00 ILS (sale, was 120.00 ILS)
+- Availability: In stock
+- Description: חולצת של איליה טופוריה עם נבחרת ספרד הסמל של ספרד עם 2 כוכבים אחרי הזכייה במונדיאל
+- Image: https://example.com/assets/product-1784575307904-d8g7l.webp
 
 ---
 
