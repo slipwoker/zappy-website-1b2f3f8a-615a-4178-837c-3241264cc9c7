@@ -1,0 +1,109 @@
+# LEGACY — Generative Engine Optimization Map
+
+> LEGACY is a boxing-focused athletic apparel brand designed for fighters and boxing trainees. The brand carries a strong, powerful identity rooted in the world of combat sports, with a name that evokes heritage, grit, and lasting impact. The brand speaks to dedicated athletes who train hard and want their gear to reflect their passion and commitment to the sport.
+
+---
+
+## Pages
+
+### בית
+https://legacy-1b2f3f8a.zappy5.app
+LEGACY מציעה ביגוד ספורט מותאם אישית לאגרוף ואימוני קרב. עיצובים חזקים שמשדרים עוצמה, מורשת ותשוקה אמיתית לזירה. היכנסו עכשיו וגלו את הקולקציה.
+
+### הסיפור שלנו
+https://legacy-1b2f3f8a.zappy5.app/brand-story
+מהזירה אל הרחוב: גלו את הסיפור של LEGACY, מותג ביגוד אגרוף שנולד מאהבה לקרב ומחויבות לספורטאים. הצטרפו למסע שמעצב מחדש את תרבות האימון.
+
+### תרבות אימון
+https://legacy-1b2f3f8a.zappy5.app/training-culture
+תרבות אימון אגרוף שלא מתפשרת על כלום. LEGACY מביאה לכם ציוד וביגוד שידחפו אתכם קדימה, מאימוני כוח ועד ספרינג. בואו לחוות את ההבדל האמיתי.
+
+### גלריה
+https://legacy-1b2f3f8a.zappy5.app/gallery
+גלריה מעוררת השראה של ביגוד ספורט לקרב. צפו בלוחמים אמיתיים לובשים LEGACY ומביאים את האנרגיה הבלתי מתפשרת שלנו לחיים. היכנסו להתרשם עכשיו.
+
+### צור קשר
+https://legacy-1b2f3f8a.zappy5.app/contact
+רוצים ביגוד ספורט מותאם אישית או שיתוף פעולה סיטונאי? צרו קשר עם צוות LEGACY עוד היום ונתפור לכם את החלום. אנחנו מחכים לשמוע מכם.
+
+### Products
+https://legacy-1b2f3f8a.zappy5.app/products
+המוצרים שלנו - LEGACY
+
+### Cart
+https://legacy-1b2f3f8a.zappy5.app/cart
+עגלת הקניות שלך
+
+### Checkout
+https://legacy-1b2f3f8a.zappy5.app/checkout
+תשלום
+
+### Login
+https://legacy-1b2f3f8a.zappy5.app/login
+התחברות לקוחות
+
+### Account
+https://legacy-1b2f3f8a.zappy5.app/account
+החשבון שלי
+
+### Order Success
+https://legacy-1b2f3f8a.zappy5.app/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://legacy-1b2f3f8a.zappy5.app/product/:slug
+פרטי המוצר - LEGACY
+
+### Category
+https://legacy-1b2f3f8a.zappy5.app/category/:slug
+מוצרים - LEGACY
+
+### תודה רבה - Legacy
+https://legacy-1b2f3f8a.zappy5.app/thank-you
+הודעתך התקבלה בהצלחה. צוות Legacy, המומחים לביגוד ספורט בעיצוב אישי, יחזור אליך בהקדם האפשרי.
+
+## Legal & Policy
+
+### Privacy Policy
+https://legacy-1b2f3f8a.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://legacy-1b2f3f8a.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://legacy-1b2f3f8a.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About LEGACY
+LEGACY is a boxing-focused athletic apparel brand designed for fighters and boxing trainees. The brand carries a strong, powerful identity rooted in the world of combat sports, with a name that evokes heritage, grit, and lasting impact. The brand speaks to dedicated athletes who train hard and want their gear to reflect their passion and commitment to the sport.
+
+## Target Audience
+- מתאמנים באיגרוף
+- חובבי איגרוף
+- משפיעים בתחום הכושר
+- מועדוני ספורט לנוער
+
+## Industry
+Sports Apparel
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://legacy-1b2f3f8a.zappy5.app/sitemap.xml
+- Robots: https://legacy-1b2f3f8a.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://legacy-1b2f3f8a.zappy5.app/llms-full.txt
+- Products (JSON): https://legacy-1b2f3f8a.zappy5.app/products.json
+- Products (Google Merchant RSS): https://legacy-1b2f3f8a.zappy5.app/product-feed.xml
